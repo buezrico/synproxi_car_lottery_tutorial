@@ -24,7 +24,7 @@ const HowItWorks = () => {
 
                 <div
                   className={`p-4 pt-8 flex sm:hidden lg:flex justify-center lg:justify-start rotate-90  sm:rotate-0 ${
-                    index === steps.length - 1 ? "hidden" : ""
+                    index === steps.length - 1 ? "hidden lg:hidden" : ""
                   } `}
                 >
                   <FaArrowRightLong size={24} />
