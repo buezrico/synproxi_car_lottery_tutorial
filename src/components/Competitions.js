@@ -7,7 +7,7 @@ import { Bounce, Slide } from "react-awesome-reveal";
 
 const Competitions = () => {
   return (
-    <section className="w-full flex justify-center items-center pb-40 ">
+    <section className="w-full flex justify-center items-center pb-40 competitions">
       <div className="w-[90%] space-y-8 ">
         <Slide>
           <h2 className="font-bold text-2xl">Latest Competitions</h2>
