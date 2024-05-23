@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Competitions from "./components/Competitions";
 import HowItWorks from "./components/HowItWorks";
+import Testimonial from "./components/Testimonial";
+import Winners from "./components/Winners";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Hero />
       <Competitions />
       <HowItWorks />
+      <Testimonial />
+      <Winners />
+      <Footer />
     </div>
   );
 }

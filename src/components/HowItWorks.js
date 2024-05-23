@@ -16,7 +16,7 @@ const HowItWorks = () => {
         <ul className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8 gap-y-16 lg:flex lg:gap-0">
           <Bounce cascade>
             {steps.map((item, index) => (
-              <li className="w-full flex flex-col sm:flex-row">
+              <li className="w-full flex flex-col sm:flex-row" key={index}>
                 <div className="flex flex-col items-center gap-8 text-center">
                   <img src={item.image} alt="" />
                   <p>{item.step}</p>
